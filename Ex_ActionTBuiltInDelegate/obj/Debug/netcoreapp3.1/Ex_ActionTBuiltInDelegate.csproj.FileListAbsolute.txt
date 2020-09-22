@@ -1,0 +1,11 @@
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.exe
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.deps.json
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.runtimeconfig.json
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.runtimeconfig.dev.json
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.dll
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.csprojAssemblyReference.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.AssemblyInfoInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.AssemblyInfo.cs
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.dll
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.pdb

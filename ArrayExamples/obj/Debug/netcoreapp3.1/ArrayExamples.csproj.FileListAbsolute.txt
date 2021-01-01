@@ -1,0 +1,11 @@
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.exe
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.deps.json
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.runtimeconfig.json
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.runtimeconfig.dev.json
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.dll
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.AssemblyInfoInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.AssemblyInfo.cs
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.dll
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.csprojAssemblyReference.cache

@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex_FuncBuiltInDelegate", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex_ExtensionMethod", "Ex_ExtensionMethod\Ex_ExtensionMethod.csproj", "{82FD805B-92AD-4872-A86D-C431CEEC317B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_Middleware_Demo_1", "Web_Middleware_Demo_1\Web_Middleware_Demo_1.csproj", "{15679C50-F588-40AD-87BB-4E1D73547273}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web_Middleware_Demo_1", "Web_Middleware_Demo_1\Web_Middleware_Demo_1.csproj", "{15679C50-F588-40AD-87BB-4E1D73547273}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExamples", "ArrayExamples\ArrayExamples.csproj", "{B0556DD7-E8F3-4E0C-BFA2-E1307F0F856C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{15679C50-F588-40AD-87BB-4E1D73547273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15679C50-F588-40AD-87BB-4E1D73547273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15679C50-F588-40AD-87BB-4E1D73547273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0556DD7-E8F3-4E0C-BFA2-E1307F0F856C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0556DD7-E8F3-4E0C-BFA2-E1307F0F856C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0556DD7-E8F3-4E0C-BFA2-E1307F0F856C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0556DD7-E8F3-4E0C-BFA2-E1307F0F856C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

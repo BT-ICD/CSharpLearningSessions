@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ArrayExamples": {
+      "commandName": "Project",
+      "commandLineArgs": "Hello Command Line"
+    }
+  }
+}

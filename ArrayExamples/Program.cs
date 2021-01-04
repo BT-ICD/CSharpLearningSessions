@@ -6,12 +6,22 @@ namespace ArrayExamples
     {
         static void Main(string[] args)
         {
-            ArraySortDemo();
+            //ReadCommandLine(args);
+            //ArraySortDemo();
             //JaggedArrayDemo1();
 
             //twoDimensionsExample1();
         }
-
+        public static void ReadCommandLine(String[] args)
+        {
+            //To read command line arguments
+            Console.WriteLine($"Numbe of arguments: {args.Length}");
+            Console.WriteLine("List of arguments:");
+            foreach (var item in args)
+            {
+                Console.WriteLine(item);
+            }
+        }
         private static void JaggedArrayDemo1()
         {
             ///A jagged array is an array of arrays, and therefore its elements are reference types and are initialized to null.

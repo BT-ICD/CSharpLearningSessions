@@ -1,0 +1,11 @@
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\bin\Debug\netcoreapp3.1\Ex_UserDefinedClass01.exe
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\bin\Debug\netcoreapp3.1\Ex_UserDefinedClass01.deps.json
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\bin\Debug\netcoreapp3.1\Ex_UserDefinedClass01.runtimeconfig.json
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\bin\Debug\netcoreapp3.1\Ex_UserDefinedClass01.runtimeconfig.dev.json
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\bin\Debug\netcoreapp3.1\Ex_UserDefinedClass01.dll
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\bin\Debug\netcoreapp3.1\Ex_UserDefinedClass01.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.AssemblyInfoInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.AssemblyInfo.cs
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.dll
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.csprojAssemblyReference.cache

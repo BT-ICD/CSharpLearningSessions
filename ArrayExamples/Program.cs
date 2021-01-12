@@ -15,7 +15,7 @@ namespace ArrayExamples
         public static void ReadCommandLine(String[] args)
         {
             //To read command line arguments
-            Console.WriteLine($"Numbe of arguments: {args.Length}");
+            Console.WriteLine($"Number of arguments: {args.Length}");
             Console.WriteLine("List of arguments:");
             foreach (var item in args)
             {
@@ -68,7 +68,7 @@ namespace ArrayExamples
             int[] arr = new int[] { 10, 11, 3, 23, 5 };
             Array.Sort(arr);
             int minValue = int.MinValue;
-            Console.WriteLine($"MinValye of int is {minValue}");
+            Console.WriteLine($"MinValue of int is {minValue}");
             for (int i = 0; i < arr.Length; i++)
             {
                 Console.Write($"\t {arr[i]}");

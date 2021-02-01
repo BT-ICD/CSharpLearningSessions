@@ -6,20 +6,27 @@ namespace Ex_UserDefinedClass01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Student obj = new Student();
+            SquareVer1 s1 = new SquareVer1();
+            s1.length = 10;
+            int area = s1.Area();
+            Console.WriteLine($"Area is {area}");
 
-            obj.name = "Rajesh";
-            obj.marks = 20;
-            Console.WriteLine("Name: " + obj.name);
-            Console.WriteLine("Marks: " + obj.marks);
+            //First Demo of User Defined class 
+            //Console.WriteLine("Hello World!");
+            //Student obj = new Student();
 
-            string fullName = "Rajesh B Shah";
-            string[] names = SplitName(fullName);
-            foreach (var item in names)
-            {
-                Console.WriteLine(item);
-            }
+            //obj.name = "Rajesh";
+            //obj.marks = 20;
+            //Console.WriteLine("Name: " + obj.name);
+            //Console.WriteLine("Marks: " + obj.marks);
+
+            //Split Function Demo
+            //string fullName = "Rajesh B Shah";
+            //string[] names = SplitName(fullName);
+            //foreach (var item in names)
+            //{
+            //    Console.WriteLine(item);
+            //}
         }
         /// <summary>
         /// To get first Name, Middle Name and Last Name as an array of string

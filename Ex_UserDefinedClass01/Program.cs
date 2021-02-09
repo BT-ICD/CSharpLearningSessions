@@ -9,6 +9,19 @@ namespace Ex_UserDefinedClass01
             //Example of params to pass variable number of arguments
             int sum = addition(10, 20,30);
             Console.WriteLine($"Sum of values: {sum}");
+
+            Console.WriteLine("Example Pass by val");
+            int a = 10;
+            Console.WriteLine($"Initial value of a is {a}");
+            changeVal(a);
+            Console.WriteLine($"After function call value of a is {a}");
+
+            Console.WriteLine("Example Pass By ref");
+            a = 50;
+            Console.WriteLine($"Initial value of a is {a}");
+            changeRef(ref a);
+            Console.WriteLine($"After function call value of a is {a}");
+
             //Example of Expression Bodied Members
             //MyTime t1 = new MyTime();
             //t1.Minutes = 1;
@@ -38,6 +51,24 @@ namespace Ex_UserDefinedClass01
             //{
             //    Console.WriteLine(item);
             //}
+        }
+
+        //Pass by value
+        static void changeVal(int num)
+        {
+            Console.WriteLine($"From Function Num is {num}");
+            num = 20;
+            Console.WriteLine($"From Function Num is {num}");
+
+        }
+        //Pass by reference
+        //Learning reference - https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/ref
+        static void changeRef(ref int num)
+        {
+            Console.WriteLine($"From ref Function Num is {num}");
+            num = 20;
+            Console.WriteLine($"From ref Function Num is {num}");
+
         }
         /// <summary>
         /// Example of params to get variable number of arguments

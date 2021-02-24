@@ -4,7 +4,6 @@ C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ExtensionMethod\bin\Debug\ne
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ExtensionMethod\bin\Debug\netcoreapp3.1\Ex_ExtensionMethod.runtimeconfig.dev.json
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ExtensionMethod\bin\Debug\netcoreapp3.1\Ex_ExtensionMethod.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ExtensionMethod\bin\Debug\netcoreapp3.1\Ex_ExtensionMethod.pdb
-C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ExtensionMethod\obj\Debug\netcoreapp3.1\Ex_ExtensionMethod.csprojAssemblyReference.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ExtensionMethod\obj\Debug\netcoreapp3.1\Ex_ExtensionMethod.AssemblyInfoInputs.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ExtensionMethod\obj\Debug\netcoreapp3.1\Ex_ExtensionMethod.AssemblyInfo.cs
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ExtensionMethod\obj\Debug\netcoreapp3.1\Ex_ExtensionMethod.dll

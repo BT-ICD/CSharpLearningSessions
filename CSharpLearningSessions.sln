@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web_Middleware_Demo_1", "We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayExamples", "ArrayExamples\ArrayExamples.csproj", "{B0556DD7-E8F3-4E0C-BFA2-E1307F0F856C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_UserDefinedClass01", "Ex_UserDefinedClass01\Ex_UserDefinedClass01.csproj", "{F3D3A9E8-43EA-4044-9DA8-86571E87D7BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex_UserDefinedClass01", "Ex_UserDefinedClass01\Ex_UserDefinedClass01.csproj", "{F3D3A9E8-43EA-4044-9DA8-86571E87D7BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "SignalRChat\SignalRChat.csproj", "{94D7E688-F36A-4B3C-B47E-C4E5C80374B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F3D3A9E8-43EA-4044-9DA8-86571E87D7BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3D3A9E8-43EA-4044-9DA8-86571E87D7BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3D3A9E8-43EA-4044-9DA8-86571E87D7BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D7E688-F36A-4B3C-B47E-C4E5C80374B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D7E688-F36A-4B3C-B47E-C4E5C80374B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D7E688-F36A-4B3C-B47E-C4E5C80374B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D7E688-F36A-4B3C-B47E-C4E5C80374B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

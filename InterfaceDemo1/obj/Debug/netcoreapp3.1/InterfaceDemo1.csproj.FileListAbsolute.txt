@@ -1,0 +1,11 @@
+C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.exe
+C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.deps.json
+C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.runtimeconfig.json
+C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.runtimeconfig.dev.json
+C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.dll
+C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.AssemblyInfoInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.AssemblyInfo.cs
+C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.dll
+C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.csprojAssemblyReference.cache

@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQGroupByDemo", "LINQGrou
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceDemo1", "InheritanceDemo1\InheritanceDemo1.csproj", "{9564667C-618B-4BD9-ADCF-8EC6B691019C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo1", "InterfaceDemo1\InterfaceDemo1.csproj", "{65C92D40-A713-40D2-B9D8-77E7EBD7E424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemo1", "InterfaceDemo1\InterfaceDemo1.csproj", "{65C92D40-A713-40D2-B9D8-77E7EBD7E424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationMVC1", "WebApplicationMVC1\WebApplicationMVC1.csproj", "{45EF42C7-B24F-451F-9441-DF2B615159AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{65C92D40-A713-40D2-B9D8-77E7EBD7E424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65C92D40-A713-40D2-B9D8-77E7EBD7E424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65C92D40-A713-40D2-B9D8-77E7EBD7E424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45EF42C7-B24F-451F-9441-DF2B615159AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45EF42C7-B24F-451F-9441-DF2B615159AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45EF42C7-B24F-451F-9441-DF2B615159AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45EF42C7-B24F-451F-9441-DF2B615159AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

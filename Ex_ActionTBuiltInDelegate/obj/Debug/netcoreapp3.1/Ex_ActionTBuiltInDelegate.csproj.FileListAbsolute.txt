@@ -9,3 +9,5 @@ C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\obj\D
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.AssemblyInfo.cs
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_ActionTBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_ActionTBuiltInDelegate.genruntimeconfig.cache

@@ -18,5 +18,10 @@ namespace WebApplicationMVC1.Controllers
             var list = Product.List();
             return View(list);
         }
+        public IActionResult ListWithImages()
+        {
+            var list = Product.List();
+            return View(list);
+        }
     }
 }

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "ListWithImages";
+}
+<div class="container">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+
+
+            <div class="card  mr-2" style="width:31%">
+                <div class="card-header">
+                    Name:<span class="text-primary"> @item.Name</span>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        @{
+                            var imgUrl = "/Assets/Images/Products/" + item.ImageName;
+                        }
+                        <img src=@imgUrl width="150" />
+                    </div>
+                    <div class="row mt-2">
+                        Rate:<span class="text-primary">@item.Rate</span>
+                        Category <span class="text-primary">@item.Category</span>
+
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary">Detail</button>
+                </div>
+            </div>
+
+
+        }
+    </div>
+</div>

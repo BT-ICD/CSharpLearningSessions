@@ -117,3 +117,4 @@ C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\ne
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\Razor\Views\Product\List.cshtml.g.cs
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\Razor\Views\Product\ListWithImages.cshtml.g.cs
+C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\Razor\Views\RazorDemo\Index.cshtml.g.cs

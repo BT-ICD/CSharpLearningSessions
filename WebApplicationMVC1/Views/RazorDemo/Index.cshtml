@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Examples on Razor Syntax
+        </div>
+        <div class="card-body">
+            @*First row to render date time*@
+            <div class="row col-md-12">
+                <div class="row col-md-12">
+                    To get current date and time
+                </div>
+                <div class="row col-md-12">
+                    <p>@DateTime.Now</p>
+                </div>
+                <div class="row col-md-12">
+                    <p>@DateTime.Now.Year is a leap year - @DateTime.IsLeapYear(@DateTime.Now.Year)</p>
+                </div>
+            </div>
+            @*Second row to render Razor Code Block*@
+            <div class="row col-md-12">
+                <div class="row col-md-12">
+                    <span class="text-primary">Razor code block</span>
+                </div>
+                <div class="row col-md-12">
+                    @{
+                        var data = "We will do it";
+                    }
+                    <p>@data</p>
+                </div>
+            </div>
+            @*Third row - example of loop*@
+            <div class="row col-md-12">
+                <div class="row col-md-12">
+                    <span class="text-primary">For loop</span>
+                </div>
+                <div class="row col-md-12">
+                    <ul>
+                        @for (int i = 1; i <= 5; i++)
+                        {
+                            <li>Value of i is @i</li>
+                        }
+                    </ul>
+                    </div>
+            </div>
+            <div class="card-footer">
+
+
+            </div>
+        </div>
+    </div>
+</div>

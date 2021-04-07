@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "Names";
+}
+
+<h1>Names</h1>
+@{ 
+    var i = ViewData["numTimes"] as int?;
+    var name = ViewData["name"] as string;
+    var address = ViewData["address"] as Address;
+}
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            ViewData Demo. To share value from a controller to view
+        </div>
+        <div class="card-body">
+            <p>@i</p>
+            <p>
+                Name: @name
+            </p>
+            <p>
+                Content of MessageData: @ViewData["MessageData"]
+            </p>
+            <p>
+                Address
+            </p>
+            <p>Area: @address.Area</p>
+            <p>City: @address.City</p>
+            <p>State: @address.State</p>
+        </div>
+        
+    </div>
+</div>

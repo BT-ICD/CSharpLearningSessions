@@ -4,7 +4,7 @@
 }
 
 <h1>Names</h1>
-@{ 
+@{
     var i = ViewData["numTimes"] as int?;
     var name = ViewData["name"] as string;
     var address = ViewData["address"] as Address;
@@ -29,6 +29,5 @@
             <p>City: @address.City</p>
             <p>State: @address.State</p>
         </div>
-        
     </div>
 </div>

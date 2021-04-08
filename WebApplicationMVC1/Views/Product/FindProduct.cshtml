@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "FindProduct";
+}
+<div class="container">
+    <form asp-controller="Product" asp-action="Display" method="get">
+        <div class="card">
+            <div class="card-header">
+                Find Product
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <p>Product Id: <input type="text" name="ProductId" required placeholder="Enter Product Id Here" /> </p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <input class="btn btn-primary" type="submit" value="Search" />
+            </div>
+        </div>
+    </form>
+</div>

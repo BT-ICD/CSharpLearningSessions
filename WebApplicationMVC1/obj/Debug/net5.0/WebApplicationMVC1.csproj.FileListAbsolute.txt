@@ -121,3 +121,4 @@ C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\ne
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\Razor\Views\RazorDemo\Names.cshtml.g.cs
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\Razor\Views\Product\FindProduct.cshtml.g.cs
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\Razor\Views\Product\View.cshtml.g.cs
+C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\Razor\Views\ProductFormEx1\Index.cshtml.g.cs

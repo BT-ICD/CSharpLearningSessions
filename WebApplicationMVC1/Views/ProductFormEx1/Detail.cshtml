@@ -1,0 +1,32 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Product Details
+        </div>
+        <div class="card-body">
+            <div class="row">
+                Id: <span class="text-primary">@Model.Id</span>
+            </div>
+            <div class="row">
+                Name: <span class="text-primary">@Model.Name</span>
+            </div>
+            <div class="row">
+                Rate: <span class="text-primary">@Model.Rate</span>
+            </div>
+            <div class="row">
+                Category: <span class="text-primary">@Model.Category</span>
+            </div>
+
+        </div>
+        <div class="card-footer">
+            @Html.ActionLink("Add New Product", "Index")
+        </div>
+    </div>
+
+</div>
+

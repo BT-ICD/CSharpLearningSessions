@@ -14,11 +14,37 @@ namespace WebApplicationMVC1.Controllers
         {
             return View();
         }
+
+        /// <summary>
+        /// Method to access form data as an object when user submit form
+        /// </summary>
+        /// <param name="objData"></param>
+        /// <returns></returns>
         [HttpPost]
-        public IActionResult Index(int Id, String Name, int Rate, String Category)
+        public IActionResult Index(Product objData)
         {
-            Product objData = new Product() { Id = Id, Name = Name , Rate=Rate, Category=Category};
-            return View();
+
+            return View("Detail", objData);
         }
+        /// <summary>
+        /// Access Form Values as individual parameter when user submit form
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <param name="Name"></param>
+        /// <param name="Rate"></param>
+        /// <param name="Category"></param>
+        /// <returns></returns>
+        //[HttpPost]
+        //public IActionResult Index(int Id, String Name, int Rate, String Category)
+        //{
+        //    Product objData = new Product() { Id = Id, Name = Name , Rate=Rate, Category=Category};
+
+        //    return View("Detail", objData);
+        //}
+
+
+
+
+
     }
 }

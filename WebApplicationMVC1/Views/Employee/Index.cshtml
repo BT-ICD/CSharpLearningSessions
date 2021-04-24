@@ -1,0 +1,61 @@
+﻿@*Learning References 
+https://www.completecsharptutorial.com/asp-net-mvc5/html-checkbox-and-html-checkboxfor-example-in-asp-net-mvc.php
+*@
+
+@model Employee
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    @using (Html.BeginForm())
+    {
+        <div class="card">
+            <div class="card-header">
+                Add New Employee
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Id)
+                    @Html.TextBoxFor(m => m.Id)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Name)
+                    @Html.TextBoxFor(m => m.Name)
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Gender)
+                    @Html.RadioButtonFor(m => m.Gender, "Male") Male
+                    @Html.RadioButtonFor(m => m.Gender, "Female") Female
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.IsActive)
+                    @Html.CheckBoxFor(m => m.IsActive)
+                </div>
+                <div class="form-group">
+                    Demo for Html.CheckBox
+                    <span> | Is new: </span> @Html.CheckBox("IsNew", true)
+                </div>
+                <div class="form-group">
+                    Demo for Dropdown
+                    Department: @Html.DropDownListFor(m => m.Department, new SelectList(Enum.GetValues(typeof(DepartmentEnum))), "Select Department")
+                </div>
+                <div class="form-group">
+                    Designation: @Html.DropDownListFor(m => m.Designation, new List<SelectListItem> {
+                   new SelectListItem(){Text="Manager", Value="101"},
+                   new SelectListItem(){Text="Project Manager", Value="201"},
+                   new SelectListItem(){Text="Team Leader", Value="301"}
+               }, "Select Designation", new { @class = "form-control" })
+                </div>
+              
+                <div class="form-group">
+                    Suffix: <select asp-for="Suffix" asp-items=@ViewBag.suffixListItems></select>
+                </div>
+            </div>
+            <div class="card-footer">
+                <input type="submit" value="Submit" />
+            </div>
+        </div>
+                    }
+</div>
+

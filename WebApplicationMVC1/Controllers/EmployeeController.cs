@@ -36,7 +36,7 @@ namespace WebApplicationMVC1.Controllers
             };
             ViewBag.suffixListItems = suffixListItems;
             Employee obj = employee;
-            return View();
+            return View("Details",obj);
         }
 
     }

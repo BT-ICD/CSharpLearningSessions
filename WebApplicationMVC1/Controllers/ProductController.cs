@@ -42,5 +42,10 @@ namespace WebApplicationMVC1.Controllers
             var result = Product.List().Where(p => p.Id == ProductId).FirstOrDefault();
             return View("View",result);
         }
+        public IActionResult ListDemo()
+        {
+            var list = Product.List();
+            return View(list);
+        }
     }
 }

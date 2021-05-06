@@ -25,12 +25,14 @@ https://www.completecsharptutorial.com/asp-net-mvc5/html-checkbox-and-html-check
                 </div>
                 <div class="form-group">
                     @Html.LabelFor(m => m.Gender)
-                    @Html.RadioButtonFor(m => m.Gender, "Male") Male
-                    @Html.RadioButtonFor(m => m.Gender, "Female") Female
+                    @Html.RadioButtonFor(m => m.Gender, "M") Male
+                    @Html.RadioButtonFor(m => m.Gender, "F") Female
                 </div>
                 <div class="form-group">
-                    @Html.LabelFor(m => m.IsActive)
-                    @Html.CheckBoxFor(m => m.IsActive)
+                    @*@Html.LabelFor(m => m.IsActive)
+                    @Html.CheckBoxFor(m => m.IsActive)*@
+                    Is Active:
+                    <input type="checkbox"  name="IsActive" value="true"/>
                 </div>
                 <div class="form-group">
                     Demo for Html.CheckBox
@@ -38,9 +40,15 @@ https://www.completecsharptutorial.com/asp-net-mvc5/html-checkbox-and-html-check
                 </div>
                 <div class="form-group">
                     Demo for Dropdown
-                    Department: @Html.DropDownListFor(m => m.Department, new SelectList(Enum.GetValues(typeof(DepartmentEnum))), "Select Department")
+                    @*Department: @Html.DropDownListFor(m => m.Department, new SelectList(Enum.GetValues(typeof(DepartmentEnum))), "Select Department")*@
+                    <select name="Department" >
+                        <option value="101">Sales</option>
+                        <option value="102">Marketting</option>
+                        <option value="103">Purchase</option>
+                    </select>
                 </div>
                 <div class="form-group">
+                    
                     Designation: @Html.DropDownListFor(m => m.Designation, new List<SelectListItem> {
                    new SelectListItem(){Text="Manager", Value="101"},
                    new SelectListItem(){Text="Project Manager", Value="201"},
@@ -49,6 +57,7 @@ https://www.completecsharptutorial.com/asp-net-mvc5/html-checkbox-and-html-check
                 </div>
               
                 <div class="form-group">
+                   
                     Suffix: <select asp-for="Suffix" asp-items=@ViewBag.suffixListItems></select>
                 </div>
             </div>

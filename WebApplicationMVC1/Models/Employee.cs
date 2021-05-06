@@ -19,7 +19,8 @@ namespace WebApplicationMVC1.Models
         public bool IsActive { get; set; }
 
         public bool IsNew { get; set; }
-        public DepartmentEnum Department { get; set; }
+        //public DepartmentEnum Department { get; set; }
+        public int Department { get; set; }
 
         public string Designation { get; set; }
 

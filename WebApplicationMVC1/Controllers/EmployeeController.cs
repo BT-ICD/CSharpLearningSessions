@@ -21,7 +21,9 @@ namespace WebApplicationMVC1.Controllers
                 new SelectListItem(){Text="Miss", Value="3"},
                 new SelectListItem(){Text="Mrs", Value="4"}
             };
+            List<SelectListItem> listOfRoles = Employee.GetRoles();
             ViewBag.suffixListItems = suffixListItems;
+            ViewBag.listOfRoles = listOfRoles;
             return View();
         }
         [HttpPost]
@@ -35,6 +37,8 @@ namespace WebApplicationMVC1.Controllers
                 new SelectListItem(){Text="Mrs", Value="4"}
             };
             ViewBag.suffixListItems = suffixListItems;
+            List<SelectListItem> listOfRoles = Employee.GetRoles();
+            ViewBag.listOfRoles = listOfRoles;
             Employee obj = employee;
             return View("Details",obj);
         }

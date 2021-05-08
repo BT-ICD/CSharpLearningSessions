@@ -50,6 +50,10 @@ https://docs.microsoft.com/en-us/aspnet/core/mvc/views/working-with-forms?view=a
                 <label asp-for="Suffix">Suffix</label>
                 <select class="form-control" asp-for="Suffix" asp-items="@ViewBag.suffixListItems">
                 </select>
+                <div class="form-group">
+                    <select class="form-control" multiple asp-for="Roles" asp-items="@ViewBag.listOfRoles">
+                    </select>
+                </div>
             </form>
         </div>
         <div class="card-footer">

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -25,5 +26,17 @@ namespace WebApplicationMVC1.Models
         public string Designation { get; set; }
 
         public string Suffix { get; set; }
+        public string[] Roles { get; set; }
+
+        public static List<SelectListItem> GetRoles()
+        {
+            List<SelectListItem> items = new List<SelectListItem>() {
+            new SelectListItem("Admin","501"),
+            new SelectListItem("Super Admin","601"),
+            new SelectListItem("Network Admin","701"),
+        };
+            return items;
+        }
     }
+   
 }

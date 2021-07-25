@@ -23,7 +23,6 @@ C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreap
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreapp3.1\libman.json
-C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreapp3.1\SignalRChat.exe
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreapp3.1\SignalRChat.deps.json
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreapp3.1\SignalRChat.runtimeconfig.json
@@ -34,3 +33,6 @@ C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreap
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreapp3.1\SignalRChat.Views.pdb
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.Views.pdb
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.csproj.CopyComplete
+C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\scopedcss\bundle\SignalRChat.styles.css
+C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.genruntimeconfig.cache

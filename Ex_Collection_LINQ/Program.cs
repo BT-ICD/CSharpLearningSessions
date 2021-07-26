@@ -10,7 +10,11 @@ namespace Ex_Collection_LINQ
             Console.WriteLine("Collection Examples");
             //Example1();
             //ExampleCollectionInitializer();
-            ExampleCollectionUsingIndex();
+            //ExampleCollectionUsingIndex();
+            //Exist method - Example of Exist method of list with Predicate
+            //ExampleListExistsToLearnPredicate();
+            //Find All method Exaple with Predicate
+            ExampleListFinAll();
 
         }
         /// <summary>
@@ -63,6 +67,40 @@ namespace Ex_Collection_LINQ
                 new Product { Id=104,Name="Hamam",Rate=20}
             };
 
+        }
+        static void ExampleListExistsToLearnPredicate()
+        {
+            //Learning reference: https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.exists?view=net-5.0
+            var products = new List<Product>() {
+                new Product { Id=101,Name="Dettol",Rate=30},
+                new Product { Id=102,Name="Cinthol",Rate=40},
+                new Product { Id=103,Name="Dove",Rate=50},
+                new Product { Id=104,Name="Hamam",Rate=20}
+            };
+
+            Console.WriteLine($"Initial Length of products is  {products.Count}");
+            Console.WriteLine("Determine products having rate >20 using exist method");
+            var result = products.Exists(obj => obj.Rate > 20);
+            Console.WriteLine($"Result: List of products having rate >20 is {result}");
+        }
+        static void ExampleListFinAll()
+        {
+            //Learning reference: https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.findall?view=net-5.0
+            var products = new List<Product>() {
+                new Product { Id=101,Name="Dettol",Rate=30},
+                new Product { Id=102,Name="Cinthol",Rate=40},
+                new Product { Id=103,Name="Dove",Rate=50},
+                new Product { Id=104,Name="Hamam",Rate=20}
+            };
+
+            Console.WriteLine($"Initial Length of products is  {products.Count}");
+            Console.WriteLine("To get list of products having rate >20 using FindAll");
+            var result = products.FindAll(obj => obj.Rate > 20);
+            Console.WriteLine($"Result: List of products having rate >20 is {result.Count}");
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

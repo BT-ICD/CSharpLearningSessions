@@ -5,7 +5,6 @@ C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\bin\Debug\ne
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\bin\Debug\net5.0\Ex_Collection_LINQ.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\bin\Debug\net5.0\ref\Ex_Collection_LINQ.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\bin\Debug\net5.0\Ex_Collection_LINQ.pdb
-C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\obj\Debug\net5.0\Ex_Collection_LINQ.csprojAssemblyReference.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\obj\Debug\net5.0\Ex_Collection_LINQ.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\obj\Debug\net5.0\Ex_Collection_LINQ.AssemblyInfoInputs.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\obj\Debug\net5.0\Ex_Collection_LINQ.AssemblyInfo.cs
@@ -14,3 +13,4 @@ C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\obj\Debug\ne
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\obj\Debug\net5.0\ref\Ex_Collection_LINQ.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\obj\Debug\net5.0\Ex_Collection_LINQ.pdb
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\obj\Debug\net5.0\Ex_Collection_LINQ.genruntimeconfig.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_Collection_LINQ\obj\Debug\net5.0\Ex_Collection_LINQ.csproj.AssemblyReference.cache

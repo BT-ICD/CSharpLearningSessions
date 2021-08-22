@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ex_Collection_LINQ
 {
-    public class Product
+    public class Product: IComparable
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -23,6 +23,12 @@ namespace Ex_Collection_LINQ
             products[1] = new Product() { Id = 103, Name = "Cinthol", Rate = 10 };
             products[2] = new Product() { Id = 102, Name = "Hamam", Rate = 40 };
             return products;
+        }
+
+        public int CompareTo(object obj)
+        {
+            var product = obj as Product;
+            return this.Rate -product.Rate;
         }
     }
 }

@@ -9,9 +9,11 @@ namespace Ex_Collection_LINQ
         static void Main(string[] args)
         {
             Console.WriteLine("Array Example");
-            ArrayFind();
+            //SortArrayExample1();
+            //ArrayFind();
+            SortArrayExample2();
 
-           
+
             //Console.WriteLine("Collection Examples");
             //Example1();
             //ExampleCollectionInitializer();
@@ -128,6 +130,39 @@ namespace Ex_Collection_LINQ
         static bool FindProduct(Product obj)
         {
             return obj.Id == 1002;
+        }
+        static void SortArrayExample1()
+        {
+            int[] values = new int[] {10,30,5,20,3 };
+            
+            Console.WriteLine(values.Length);
+            Console.WriteLine("Initial Array Elements");
+            foreach (var item in values)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine("Array Elements After Sorting");
+            Array.Sort(values);
+            foreach (var item in values)
+            {
+                Console.WriteLine(item);
+            }
+        }
+        static void SortArrayExample2()
+        {
+            Product[] products = Product.GetProductsArray();
+            //Prior to sort
+            Console.WriteLine("Initial Array Elements");
+            foreach (var item in products)
+            {
+                Console.WriteLine(item);
+            }
+            Array.Sort(products);
+            Console.WriteLine("Array Elements After Sorting");
+            foreach (var item in products)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }

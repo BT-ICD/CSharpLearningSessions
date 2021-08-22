@@ -5,16 +5,21 @@ namespace Ex_Collection_LINQ
 {
     class Program
     {
+       
         static void Main(string[] args)
         {
-            Console.WriteLine("Collection Examples");
+            Console.WriteLine("Array Example");
+            ArrayFind();
+
+           
+            //Console.WriteLine("Collection Examples");
             //Example1();
             //ExampleCollectionInitializer();
             //ExampleCollectionUsingIndex();
             //Exist method - Example of Exist method of list with Predicate
             //ExampleListExistsToLearnPredicate();
             //Find All method Exaple with Predicate
-            ExampleListFinAll();
+            //ExampleListFinAll();
 
         }
         /// <summary>
@@ -101,6 +106,28 @@ namespace Ex_Collection_LINQ
             {
                 Console.WriteLine(item);
             }
+        }
+        static void ArrayFind()
+        {
+            Product[] products = Product.GetProductsArray();
+            //Predicate as lambda expression
+            //var result = Array.Find(products, obj => obj.Id == 1001);
+            //Predicate as deligate
+            //var result = Array.Find(products, FindProduct);
+            Predicate<Product> predicateFindProduct = FindProduct;
+            var result = Array.Find(products, predicateFindProduct);
+            if (result==null)
+            {
+                Console.WriteLine("No Data Found");
+            }
+            else
+            {
+                Console.WriteLine(result);
+            }
+        }
+        static bool FindProduct(Product obj)
+        {
+            return obj.Id == 1002;
         }
     }
 }

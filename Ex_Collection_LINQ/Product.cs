@@ -16,5 +16,13 @@ namespace Ex_Collection_LINQ
         {
             return $"Id: {Id}, Name: {Name} Rate:{Rate}" ;
         }
+        public static Product[] GetProductsArray()
+        {
+            Product[] products = new Product[3];
+            products[0] = new Product() { Id = 101, Name = "Dettol", Rate = 30 };
+            products[1] = new Product() { Id = 103, Name = "Cinthol", Rate = 10 };
+            products[2] = new Product() { Id = 102, Name = "Hamam", Rate = 40 };
+            return products;
+        }
     }
 }

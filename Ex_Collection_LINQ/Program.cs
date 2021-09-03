@@ -9,9 +9,11 @@ namespace Ex_Collection_LINQ
         static void Main(string[] args)
         {
             Console.WriteLine("Array Example");
+            DictionartDemo1();
+
             //SortArrayExample1();
             //ArrayFind();
-            SortArrayExample2();
+            //SortArrayExample2();
 
 
             //Console.WriteLine("Collection Examples");
@@ -24,6 +26,19 @@ namespace Ex_Collection_LINQ
             //ExampleListFinAll();
 
         }
+
+        private static void DictionartDemo1()
+        {
+            Dictionary<string, int> data = new Dictionary<string, int>();
+            data.Add("Ahmdadbad", 10);
+            data.Add("Surat", 10);
+            data.Add("Valsad", 10);
+            foreach (var item in data.Keys)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
         /// <summary>
         /// Simple Collection of String
         /// </summary>
@@ -147,6 +162,8 @@ namespace Ex_Collection_LINQ
             {
                 Console.WriteLine(item);
             }
+           
+
         }
         static void SortArrayExample2()
         {

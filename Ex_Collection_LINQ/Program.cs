@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Ex_Collection_LINQ
 {
     class Program
     {
-       
+
         static void Main(string[] args)
         {
             Console.WriteLine("Array Example");
-            DictionartDemo1();
+            //DictionartDemo1();
 
             //SortArrayExample1();
             //ArrayFind();
@@ -25,6 +26,91 @@ namespace Ex_Collection_LINQ
             //Find All method Exaple with Predicate
             //ExampleListFinAll();
 
+            //LinqWhereClauseFirstOrDefault();
+
+            //LinqGroupByExample();
+            //AnonymousTypesExample1();
+            //LinqSelectExample1();
+
+            //LinqCountExample();
+            //LinqMaxExample();
+        }
+
+        private static void LinqMaxExample()
+        {
+            var products = new List<Product>() {
+                new Product { Id=101,Name="Dettol",Rate=30},
+                new Product { Id=102,Name="Cinthol",Rate=40},
+                new Product { Id=103,Name="Dove",Rate=50},
+                new Product { Id=104,Name="Hamam",Rate=30}
+            };
+            var result = products.Max(obj => obj.Rate);
+            Console.WriteLine($"Maximum rate is {result}");
+        }
+
+        private static void LinqCountExample()
+        {
+            var products = new List<Product>() {
+                new Product { Id=101,Name="Dettol",Rate=30},
+                new Product { Id=102,Name="Cinthol",Rate=40},
+                new Product { Id=103,Name="Dove",Rate=50},
+                new Product { Id=104,Name="Hamam",Rate=30}
+            };
+            var result = products.Count(obj => obj.Rate == 30);
+            Console.WriteLine($"Number of products having rate 30 is {result}");
+        }
+
+        private static void LinqSelectExample1()
+        {
+            var products = new List<Product>() {
+                new Product { Id=101,Name="Dettol",Rate=30},
+                new Product { Id=102,Name="Cinthol",Rate=40},
+                new Product { Id=103,Name="Dove",Rate=50},
+                new Product { Id=104,Name="Hamam",Rate=30}
+            };
+            var data = from product in products select new { product.Name, product.Rate };
+            foreach (var item in data)
+            {
+                Console.WriteLine($"Name: {item.Name} , Rate:{item.Rate} ");
+            }
+        }
+
+        private static void AnonymousTypesExample1()
+        {
+            var data = new { Id = 101, FirstName = "Mahesh" };
+            Console.WriteLine($"Anonymous types: {data.Id} , {data.FirstName} ");
+        }
+
+        private static void LinqGroupByExample()
+        {
+            var products = new List<Product>() {
+                new Product { Id=101,Name="Dettol",Rate=30},
+                new Product { Id=102,Name="Cinthol",Rate=40},
+                new Product { Id=103,Name="Dove",Rate=50},
+                new Product { Id=104,Name="Hamam",Rate=30}
+            };
+            var rateGroup = from product in products group product by product.Rate;
+            foreach (var item in rateGroup)
+            {
+                Console.WriteLine($"Product with rate {item.Key}");
+                foreach (var data in item)
+                {
+
+                    Console.WriteLine($"{data.Id} - {data.Name} - {data.Rate}");
+                }
+            }
+        }
+
+        private static void LinqWhereClauseFirstOrDefault()
+        {
+            var products = new List<Product>() {
+                new Product { Id=101,Name="Dettol",Rate=30},
+                new Product { Id=102,Name="Cinthol",Rate=40},
+                new Product { Id=103,Name="Dove",Rate=50},
+                new Product { Id=104,Name="Hamam",Rate=20}
+            };
+            var result = products.Where(obj => obj.Id == 101).FirstOrDefault();
+            Console.WriteLine(result);
         }
 
         private static void DictionartDemo1()

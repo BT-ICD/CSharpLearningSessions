@@ -34,6 +34,20 @@ namespace Ex_Collection_LINQ
 
             //LinqCountExample();
             //LinqMaxExample();
+
+            LinqOrderByIntegerArray();
+
+        }
+
+        private static void LinqOrderByIntegerArray()
+        {
+            //Reference: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods
+            int[] nums = { 10, 3, 20, 5, 45, 31 };
+            var result = nums.OrderBy(num => num);
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
         }
 
         private static void LinqMaxExample()

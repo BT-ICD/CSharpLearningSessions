@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemo1", "Interface
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationMVC1", "WebApplicationMVC1\WebApplicationMVC1.csproj", "{45EF42C7-B24F-451F-9441-DF2B615159AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_DelegateDemo", "Ex_DelegateDemo\Ex_DelegateDemo.csproj", "{373D79D9-74D2-403F-A807-B4871C82A77E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex_DelegateDemo", "Ex_DelegateDemo\Ex_DelegateDemo.csproj", "{373D79D9-74D2-403F-A807-B4871C82A77E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex_Collection_LINQ", "Ex_Collection_LINQ\Ex_Collection_LINQ.csproj", "{426A0B2E-7527-4C0F-9884-DEEBBB35F4AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex_Collection_LINQ", "Ex_Collection_LINQ\Ex_Collection_LINQ.csproj", "{426A0B2E-7527-4C0F-9884-DEEBBB35F4AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIDemo1", "WebAPIDemo1\WebAPIDemo1.csproj", "{5FC40BAE-AB0C-45F6-AFE0-3D48D70FFA21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{426A0B2E-7527-4C0F-9884-DEEBBB35F4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{426A0B2E-7527-4C0F-9884-DEEBBB35F4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{426A0B2E-7527-4C0F-9884-DEEBBB35F4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC40BAE-AB0C-45F6-AFE0-3D48D70FFA21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC40BAE-AB0C-45F6-AFE0-3D48D70FFA21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC40BAE-AB0C-45F6-AFE0-3D48D70FFA21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC40BAE-AB0C-45F6-AFE0-3D48D70FFA21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

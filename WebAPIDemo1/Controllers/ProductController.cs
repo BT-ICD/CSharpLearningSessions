@@ -5,11 +5,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebAPIDemo1.Models;
+using WebAPIDemo1.Repository;
 
 namespace WebAPIDemo1.Controllers
 {
     /// <summary>
     /// Learning reference: https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/routing?view=aspnetcore-5.0#verb
+    /// Static Constructor: Static Constructors (C# Programming Guide) - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-constructors
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
@@ -23,7 +25,7 @@ namespace WebAPIDemo1.Controllers
         [HttpGet]
         public IActionResult List()
         {
-            var result = Product.GetProductList();
+            var result = ProductRepository.GetProducts();
             return Ok(result);
         }
         /// <summary>
@@ -35,7 +37,7 @@ namespace WebAPIDemo1.Controllers
         [HttpGet("{productName}")]
         public IActionResult Get(string productName)
         {
-            var result = Product.GetProductList().Where(obj => obj.Name == productName).FirstOrDefault();
+            var result = ProductRepository.GetProducts().Where(obj => obj.Name == productName).FirstOrDefault();
             if (result == null)
             {
                 return NotFound();
@@ -52,7 +54,7 @@ namespace WebAPIDemo1.Controllers
         [HttpGet("{id:int}")]
         public IActionResult Get(int id)
         {
-            var result = Product.GetProductList().Where(obj=>obj.Id==id).FirstOrDefault();
+            var result = ProductRepository.GetProducts().Where(obj=>obj.Id==id).FirstOrDefault();
             if (result == null)
             {
                 return NotFound();
@@ -69,13 +71,22 @@ namespace WebAPIDemo1.Controllers
         [HttpGet("byrate/{rate}")]
         public IActionResult GetByRate(int rate)
         {
-            var result = Product.GetProductList().Where(obj => obj.Rate == rate).FirstOrDefault();
+            var result = ProductRepository.GetProducts().Where(obj => obj.Rate == rate).FirstOrDefault();
             if (result == null)
             {
                 return NotFound();
             }
             return Ok(result);
 
+        }
+        [HttpPost]
+        public IActionResult Add(Product product)
+        {
+            var list = ProductRepository.GetProducts();
+            list.Add(product);
+            var result = list.Where(obj => obj.Id == product.Id);
+            return Ok(list);
+    
         }
     }
 }

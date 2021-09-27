@@ -79,14 +79,56 @@ namespace WebAPIDemo1.Controllers
             return Ok(result);
 
         }
+        /// <summary>
+        /// To add new product
+        /// </summary>
+        /// <param name="product"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Add(Product product)
         {
             var list = ProductRepository.GetProducts();
             list.Add(product);
             var result = list.Where(obj => obj.Id == product.Id);
-            return Ok(list);
-    
+            //return Ok(result);
+            return CreatedAtAction(nameof(Get), new { id = product.Id }, result);
+
+        }
+        /// <summary>
+        /// To update existing product
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="product"></param>
+        /// <returns></returns>
+        [HttpPut("{id:int}")]
+        public IActionResult Update(int id, Product product)
+        {
+            var list = ProductRepository.GetProducts();
+            var data = list.Where(obj => obj.Id == id).FirstOrDefault();
+            if (data == null)
+            {
+                return NotFound();
+            }
+            data.Name = product.Name;
+            data.Rate = product.Rate;
+            return NoContent();
+        }
+        /// <summary>
+        /// To delete existing product by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [HttpDelete("{id:int}")]
+        public IActionResult DeleteProduct(int id)
+        {
+            var list = ProductRepository.GetProducts();
+            var data = list.Where(obj => obj.Id == id).FirstOrDefault();
+            if (data == null)
+            {
+                return NotFound();
+            }
+            list.Remove(data);
+            return NoContent();
         }
     }
 }

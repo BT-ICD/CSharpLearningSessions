@@ -5,7 +5,6 @@ C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\bin\Debug\net5.
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\bin\Debug\net5.0\Ex_DelegateDemo.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\bin\Debug\net5.0\ref\Ex_DelegateDemo.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\bin\Debug\net5.0\Ex_DelegateDemo.pdb
-C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\obj\Debug\net5.0\Ex_DelegateDemo.csprojAssemblyReference.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\obj\Debug\net5.0\Ex_DelegateDemo.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\obj\Debug\net5.0\Ex_DelegateDemo.AssemblyInfoInputs.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\obj\Debug\net5.0\Ex_DelegateDemo.AssemblyInfo.cs
@@ -14,3 +13,4 @@ C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\obj\Debug\net5.
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\obj\Debug\net5.0\ref\Ex_DelegateDemo.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\obj\Debug\net5.0\Ex_DelegateDemo.pdb
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\obj\Debug\net5.0\Ex_DelegateDemo.genruntimeconfig.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_DelegateDemo\obj\Debug\net5.0\Ex_DelegateDemo.csproj.AssemblyReference.cache

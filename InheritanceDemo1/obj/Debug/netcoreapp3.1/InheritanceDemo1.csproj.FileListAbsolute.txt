@@ -8,3 +8,6 @@ C:\Users\abc\source\repos\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netc
 C:\Users\abc\source\repos\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.AssemblyInfo.cs
 C:\Users\abc\source\repos\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.csproj.AssemblyReference.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.genruntimeconfig.cache

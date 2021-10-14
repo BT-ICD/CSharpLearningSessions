@@ -4,8 +4,10 @@ C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\bin\Debu
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.runtimeconfig.dev.json
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.pdb
-C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.csprojAssemblyReference.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.AssemblyInfoInputs.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.AssemblyInfo.cs
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.csproj.AssemblyReference.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.genruntimeconfig.cache

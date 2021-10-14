@@ -4,8 +4,10 @@ C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\bin\Debug\netco
 C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\bin\Debug\netcoreapp3.1\LINQGroupByDemo.runtimeconfig.dev.json
 C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\bin\Debug\netcoreapp3.1\LINQGroupByDemo.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\bin\Debug\netcoreapp3.1\LINQGroupByDemo.pdb
-C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.csprojAssemblyReference.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.AssemblyInfoInputs.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.AssemblyInfo.cs
 C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.csproj.AssemblyReference.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.genruntimeconfig.cache

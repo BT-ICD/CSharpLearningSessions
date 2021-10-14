@@ -8,3 +8,6 @@ C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.AssemblyInfo.cs
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.csproj.AssemblyReference.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.genruntimeconfig.cache

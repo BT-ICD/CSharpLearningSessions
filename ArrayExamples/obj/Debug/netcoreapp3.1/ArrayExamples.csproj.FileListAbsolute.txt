@@ -8,3 +8,5 @@ C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcore
 C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.AssemblyInfo.cs
 C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.pdb
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.genruntimeconfig.cache

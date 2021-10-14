@@ -85,7 +85,6 @@ C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\bin\Debug\ne
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
-C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\WebApplicationMVC1.csprojAssemblyReference.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\WebApplicationMVC1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\WebApplicationMVC1.AssemblyInfoInputs.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\WebApplicationMVC1.AssemblyInfo.cs
@@ -156,3 +155,4 @@ C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\bin\Debug\ne
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\Razor\Views\Dept\Index.cshtml.g.cs
+C:\Users\abc\source\repos\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\WebApplicationMVC1.csproj.AssemblyReference.cache

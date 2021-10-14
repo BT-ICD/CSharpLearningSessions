@@ -1,13 +1,11 @@
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\bin\Debug\netcoreapp3.1\Web_Middleware_Demo_1.exe
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\bin\Debug\netcoreapp3.1\Web_Middleware_Demo_1.deps.json
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\bin\Debug\netcoreapp3.1\Web_Middleware_Demo_1.runtimeconfig.json
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\bin\Debug\netcoreapp3.1\Web_Middleware_Demo_1.runtimeconfig.dev.json
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\bin\Debug\netcoreapp3.1\Web_Middleware_Demo_1.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\bin\Debug\netcoreapp3.1\Web_Middleware_Demo_1.pdb
-C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\obj\Debug\netcoreapp3.1\Web_Middleware_Demo_1.csprojAssemblyReference.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\obj\Debug\netcoreapp3.1\staticwebassets\Web_Middleware_Demo_1.StaticWebAssets.Manifest.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\obj\Debug\netcoreapp3.1\staticwebassets\Web_Middleware_Demo_1.StaticWebAssets.xml
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\obj\Debug\netcoreapp3.1\Web_Middleware_Demo_1.AssemblyInfoInputs.cache
@@ -21,3 +19,7 @@ C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\bin\Debug
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\bin\Debug\netcoreapp3.1\NLog.Web.AspNetCore.dll
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\obj\Debug\netcoreapp3.1\Web_Middleware_Demo_1.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\obj\Debug\netcoreapp3.1\Web_Middleware_Demo_1.csproj.CopyComplete
+C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\obj\Debug\netcoreapp3.1\Web_Middleware_Demo_1.csproj.AssemblyReference.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\obj\Debug\netcoreapp3.1\Web_Middleware_Demo_1.csproj.CoreCompileInputs.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\obj\Debug\netcoreapp3.1\scopedcss\bundle\Web_Middleware_Demo_1.styles.css
+C:\Users\abc\source\repos\CSharpLearningSessions\Web_Middleware_Demo_1\obj\Debug\netcoreapp3.1\Web_Middleware_Demo_1.genruntimeconfig.cache

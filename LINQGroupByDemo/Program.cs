@@ -21,8 +21,8 @@ namespace LINQGroupByDemo
                                }).ToList();
 
             Console.WriteLine(subjectList.Count);
-            paper.Questions = new System.Collections.Generic.List<ExamQuestion>();
-            paper.Questions.AddRange(subjectList);
+            //paper.Questions = new System.Collections.Generic.List<ExamQuestion>();
+            //paper.Questions.AddRange(subjectList);
             foreach (var item in subjectList)
             {
                 Console.WriteLine(item.Question);

@@ -1,4 +1,3 @@
-C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.csprojAssemblyReference.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\staticwebassets\SignalRChat.StaticWebAssets.Manifest.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\staticwebassets\SignalRChat.StaticWebAssets.xml
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.MvcApplicationPartsAssemblyInfo.cache
@@ -36,3 +35,4 @@ C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreap
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.csproj.CoreCompileInputs.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\scopedcss\bundle\SignalRChat.styles.css
 C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.genruntimeconfig.cache
+C:\Users\abc\source\repos\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.csproj.AssemblyReference.cache

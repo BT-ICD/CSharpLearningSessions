@@ -29,7 +29,7 @@ namespace WebAPIDemo1
         {
             services.AddControllers();
             services.AddDbContext<LearningDbContext>(
-                options => options.UseSqlServer("Data Source=Bhavin; Initial Catalog = LearningDb; User Id=sa; Password=sa123_!@#")
+                options => options.UseSqlServer("Data Source=localhost; Initial Catalog = LearningDb; User Id=sa; Password=sa123_!@#")
             );
         }
 

@@ -45,5 +45,35 @@ namespace WebAPIDemo1.Controllers
             return CreatedAtAction(nameof(GetById), new { Deptno = ans.Deptno }, ans);
 
         }
+        /// <summary>
+        /// To modify/update Department Record
+        /// </summary>
+        /// <param name="Deptno"></param>
+        /// <param name="dept"></param>
+        /// <returns></returns>
+        [HttpPut]
+        [Route("{Deptno:int}")]
+        public IActionResult Update(int Deptno, Dept dept)
+        {
+            var obj = learningDbContext.Depts.Where(o => o.Deptno == Deptno).FirstOrDefault();
+            if (obj == null)
+                return NotFound();
+            obj.Dname = dept.Dname;
+            obj.Loc = dept.Loc;
+            int affectedRecords = learningDbContext.SaveChanges();
+            return NoContent();
+        }
+        [HttpDelete]
+        [Route("{Deptno:int}")]
+        public IActionResult Delete(int Deptno)
+        {
+
+            var obj = learningDbContext.Depts.Where(o => o.Deptno == Deptno).FirstOrDefault();
+            if (obj== null)
+                return NotFound();
+            learningDbContext.Depts.Remove(obj);
+            int affectedRecords = learningDbContext.SaveChanges();
+            return NoContent();
+        }
     }
 }

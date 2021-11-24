@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebAPIDemo1.Data;
+using WebAPIDemo1.Repository;
 
 namespace WebAPIDemo1
 {
@@ -31,6 +32,8 @@ namespace WebAPIDemo1
             services.AddDbContext<LearningDbContext>(
                 options => options.UseSqlServer("Data Source=localhost; Initial Catalog = LearningDb; User Id=sa; Password=sa123_!@#")
             );
+            //services.AddScoped<IDept, DeptRepo>();
+            services.AddScoped<DeptRepo>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

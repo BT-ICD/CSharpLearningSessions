@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Products>
+  <Product id="101">
+    <Name>Dettol</Name>
+    <Rate>20.30</Rate>
+  </Product>
+  <Product id="102">
+    <Name>Cinthol</Name>
+    <Rate>40.30</Rate>
+  </Product>
+  <Product id="103">
+    <Name>Dove</Name>
+    <Rate>50.70</Rate>
+  </Product>
+</Products>

@@ -23,6 +23,7 @@ namespace WebAPIDemo1.Controllers
         {
             this.dept = dept;
         }
+        [HttpGet]
         public IActionResult GetList()
         {
             var result = dept.GetList();

@@ -130,15 +130,15 @@ namespace WebAPIDemo1.Controllers
             list.Remove(data);
             return NoContent();
         }
-        [HttpGet]
-        public IActionResult GetProduct([FromQuery] int id)
-        {
-            var result = ProductRepository.GetProducts().Where(obj => obj.Id == id).FirstOrDefault();
-            if (result == null)
-            {
-                return NotFound();
-            }
-            return Ok(result);
-        }
+        //[HttpGet]
+        //public IActionResult GetProduct([FromQuery] int id)
+        //{
+        //    var result = ProductRepository.GetProducts().Where(obj => obj.Id == id).FirstOrDefault();
+        //    if (result == null)
+        //    {
+        //        return NotFound();
+        //    }
+        //    return Ok(result);
+        //}
     }
 }

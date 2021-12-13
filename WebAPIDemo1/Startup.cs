@@ -29,6 +29,8 @@ namespace WebAPIDemo1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            //To implement Swagger
+            services.AddSwaggerGen();
             services.AddDbContext<LearningDbContext>(
                 options => options.UseSqlServer("Data Source=localhost; Initial Catalog = LearningDb; User Id=sa; Password=sa123_!@#")
             );
@@ -42,6 +44,9 @@ namespace WebAPIDemo1
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                //To implement Swagger
+                app.UseSwagger();
+                app.UseSwaggerUI();
             }
 
             app.UseHttpsRedirection();

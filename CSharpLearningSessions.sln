@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29806.167
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex_ActionTBuiltInDelegate", "Ex_ActionTBuiltInDelegate\Ex_ActionTBuiltInDelegate.csproj", "{EEC399BF-627F-4B3C-AF06-FF1521887066}"
 EndProject
@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ex_Collection_LINQ", "Ex_Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIDemo1", "WebAPIDemo1\WebAPIDemo1.csproj", "{5FC40BAE-AB0C-45F6-AFE0-3D48D70FFA21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLLearningDemo", "XMLLearningDemo\XMLLearningDemo.csproj", "{D1A5437B-DE26-48E6-835C-EEEA98B07DA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLLearningDemo", "XMLLearningDemo\XMLLearningDemo.csproj", "{D1A5437B-DE26-48E6-835C-EEEA98B07DA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEvent_UserDefineEvent_Demo1", "CustomEvent_UserDefineEvent_Demo1\CustomEvent_UserDefineEvent_Demo1.csproj", "{1BAB532E-9719-41D9-A74D-22907C931BAD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{D1A5437B-DE26-48E6-835C-EEEA98B07DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1A5437B-DE26-48E6-835C-EEEA98B07DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1A5437B-DE26-48E6-835C-EEEA98B07DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BAB532E-9719-41D9-A74D-22907C931BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BAB532E-9719-41D9-A74D-22907C931BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BAB532E-9719-41D9-A74D-22907C931BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BAB532E-9719-41D9-A74D-22907C931BAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

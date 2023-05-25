@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abc\\source\\repos\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj": {}
+    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abc\\source\\repos\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj": {
+    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abc\\source\\repos\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj",
+        "projectUniqueName": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj",
         "projectName": "Ex_FuncBuiltInDelegate",
-        "projectPath": "C:\\Users\\abc\\source\\repos\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj",
-        "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abc\\source\\repos\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\obj\\",
+        "projectPath": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj",
+        "packagesPath": "C:\\Users\\BHAVIN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\BHAVIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

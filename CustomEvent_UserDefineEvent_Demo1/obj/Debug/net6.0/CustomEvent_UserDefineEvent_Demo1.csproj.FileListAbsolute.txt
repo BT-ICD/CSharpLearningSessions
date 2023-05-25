@@ -1,0 +1,17 @@
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\bin\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.exe
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\bin\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.deps.json
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\bin\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.runtimeconfig.json
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\bin\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.dll
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\bin\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.pdb
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\obj\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.csproj.AssemblyReference.cache
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\obj\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\obj\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.AssemblyInfoInputs.cache
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\obj\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.AssemblyInfo.cs
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\obj\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.csproj.CoreCompileInputs.cache
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\obj\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.csproj.CopyComplete
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\obj\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.dll
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\obj\Debug\net6.0\refint\CustomEvent_UserDefineEvent_Demo1.dll
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\obj\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.pdb
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\obj\Debug\net6.0\CustomEvent_UserDefineEvent_Demo1.genruntimeconfig.cache
+C:\Users\BHAVIN\source\repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\obj\Debug\net6.0\ref\CustomEvent_UserDefineEvent_Demo1.dll

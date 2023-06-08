@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\LINQGroupByDemo\\LINQGroupByDemo.csproj": {}
+    "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\LINQGroupByDemo\\LINQGroupByDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\LINQGroupByDemo\\LINQGroupByDemo.csproj": {
+    "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\LINQGroupByDemo\\LINQGroupByDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\LINQGroupByDemo\\LINQGroupByDemo.csproj",
+        "projectUniqueName": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\LINQGroupByDemo\\LINQGroupByDemo.csproj",
         "projectName": "LINQGroupByDemo",
-        "projectPath": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\LINQGroupByDemo\\LINQGroupByDemo.csproj",
+        "projectPath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\LINQGroupByDemo\\LINQGroupByDemo.csproj",
         "packagesPath": "C:\\Users\\BHAVIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\LINQGroupByDemo\\obj\\",
+        "outputPath": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\LINQGroupByDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BHAVIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

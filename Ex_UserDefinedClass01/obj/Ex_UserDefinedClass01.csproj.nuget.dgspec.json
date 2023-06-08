@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_UserDefinedClass01\\Ex_UserDefinedClass01.csproj": {}
+    "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_UserDefinedClass01\\Ex_UserDefinedClass01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_UserDefinedClass01\\Ex_UserDefinedClass01.csproj": {
+    "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_UserDefinedClass01\\Ex_UserDefinedClass01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_UserDefinedClass01\\Ex_UserDefinedClass01.csproj",
+        "projectUniqueName": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_UserDefinedClass01\\Ex_UserDefinedClass01.csproj",
         "projectName": "Ex_UserDefinedClass01",
-        "projectPath": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_UserDefinedClass01\\Ex_UserDefinedClass01.csproj",
+        "projectPath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_UserDefinedClass01\\Ex_UserDefinedClass01.csproj",
         "packagesPath": "C:\\Users\\BHAVIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_UserDefinedClass01\\obj\\",
+        "outputPath": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_UserDefinedClass01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BHAVIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

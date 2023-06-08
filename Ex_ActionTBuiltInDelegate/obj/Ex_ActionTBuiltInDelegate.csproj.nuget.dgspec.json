@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_ActionTBuiltInDelegate\\Ex_ActionTBuiltInDelegate.csproj": {}
+    "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_ActionTBuiltInDelegate\\Ex_ActionTBuiltInDelegate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_ActionTBuiltInDelegate\\Ex_ActionTBuiltInDelegate.csproj": {
+    "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_ActionTBuiltInDelegate\\Ex_ActionTBuiltInDelegate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_ActionTBuiltInDelegate\\Ex_ActionTBuiltInDelegate.csproj",
+        "projectUniqueName": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_ActionTBuiltInDelegate\\Ex_ActionTBuiltInDelegate.csproj",
         "projectName": "Ex_ActionTBuiltInDelegate",
-        "projectPath": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_ActionTBuiltInDelegate\\Ex_ActionTBuiltInDelegate.csproj",
+        "projectPath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_ActionTBuiltInDelegate\\Ex_ActionTBuiltInDelegate.csproj",
         "packagesPath": "C:\\Users\\BHAVIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_ActionTBuiltInDelegate\\obj\\",
+        "outputPath": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_ActionTBuiltInDelegate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BHAVIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

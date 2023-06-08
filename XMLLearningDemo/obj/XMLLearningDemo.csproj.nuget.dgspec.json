@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\XMLLearningDemo\\XMLLearningDemo.csproj": {}
+    "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\XMLLearningDemo\\XMLLearningDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\XMLLearningDemo\\XMLLearningDemo.csproj": {
+    "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\XMLLearningDemo\\XMLLearningDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\XMLLearningDemo\\XMLLearningDemo.csproj",
+        "projectUniqueName": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\XMLLearningDemo\\XMLLearningDemo.csproj",
         "projectName": "XMLLearningDemo",
-        "projectPath": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\XMLLearningDemo\\XMLLearningDemo.csproj",
+        "projectPath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\XMLLearningDemo\\XMLLearningDemo.csproj",
         "packagesPath": "C:\\Users\\BHAVIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\XMLLearningDemo\\obj\\",
+        "outputPath": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\XMLLearningDemo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BHAVIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj": {}
+    "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj": {
+    "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj",
+        "projectUniqueName": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj",
         "projectName": "Ex_FuncBuiltInDelegate",
-        "projectPath": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj",
+        "projectPath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\Ex_FuncBuiltInDelegate.csproj",
         "packagesPath": "C:\\Users\\BHAVIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\obj\\",
+        "outputPath": "C:\\Users\\BHAVIN\\source\\repos\\BT-ICD\\CSharpLearningSessions\\Ex_FuncBuiltInDelegate\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BHAVIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

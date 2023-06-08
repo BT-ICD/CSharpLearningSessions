@@ -10,3 +10,17 @@ C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcore
 C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.pdb
 C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.csproj.CoreCompileInputs.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.genruntimeconfig.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.exe
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.deps.json
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.runtimeconfig.json
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.runtimeconfig.dev.json
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.dll
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\bin\Debug\netcoreapp3.1\ArrayExamples.pdb
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.csproj.AssemblyReference.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.AssemblyInfoInputs.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.AssemblyInfo.cs
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.csproj.CoreCompileInputs.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.dll
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.pdb
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\ArrayExamples\obj\Debug\netcoreapp3.1\ArrayExamples.genruntimeconfig.cache

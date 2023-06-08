@@ -11,3 +11,17 @@ C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcor
 C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.csproj.AssemblyReference.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.csproj.CoreCompileInputs.cache
 C:\Users\abc\source\repos\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.genruntimeconfig.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.exe
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.deps.json
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.runtimeconfig.json
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.runtimeconfig.dev.json
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.dll
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.pdb
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.csproj.AssemblyReference.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.AssemblyInfoInputs.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.AssemblyInfo.cs
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.csproj.CoreCompileInputs.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.dll
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.pdb
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.genruntimeconfig.cache

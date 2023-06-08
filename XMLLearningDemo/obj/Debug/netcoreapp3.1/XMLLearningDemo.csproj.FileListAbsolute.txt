@@ -1,0 +1,14 @@
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\bin\Debug\netcoreapp3.1\XMLLearningDemo.exe
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\bin\Debug\netcoreapp3.1\XMLLearningDemo.deps.json
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\bin\Debug\netcoreapp3.1\XMLLearningDemo.runtimeconfig.json
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\bin\Debug\netcoreapp3.1\XMLLearningDemo.runtimeconfig.dev.json
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\bin\Debug\netcoreapp3.1\XMLLearningDemo.dll
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\bin\Debug\netcoreapp3.1\XMLLearningDemo.pdb
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\obj\Debug\netcoreapp3.1\XMLLearningDemo.csproj.AssemblyReference.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\obj\Debug\netcoreapp3.1\XMLLearningDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\obj\Debug\netcoreapp3.1\XMLLearningDemo.AssemblyInfoInputs.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\obj\Debug\netcoreapp3.1\XMLLearningDemo.AssemblyInfo.cs
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\obj\Debug\netcoreapp3.1\XMLLearningDemo.csproj.CoreCompileInputs.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\obj\Debug\netcoreapp3.1\XMLLearningDemo.dll
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\obj\Debug\netcoreapp3.1\XMLLearningDemo.pdb
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\XMLLearningDemo\obj\Debug\netcoreapp3.1\XMLLearningDemo.genruntimeconfig.cache

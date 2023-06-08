@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIDemo1", "WebAPIDemo1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMLLearningDemo", "XMLLearningDemo\XMLLearningDemo.csproj", "{D1A5437B-DE26-48E6-835C-EEEA98B07DA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEvent_UserDefineEvent_Demo1", "CustomEvent_UserDefineEvent_Demo1\CustomEvent_UserDefineEvent_Demo1.csproj", "{1BAB532E-9719-41D9-A74D-22907C931BAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEvent_UserDefineEvent_Demo1", "CustomEvent_UserDefineEvent_Demo1\CustomEvent_UserDefineEvent_Demo1.csproj", "{1BAB532E-9719-41D9-A74D-22907C931BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreEntityFirst", "EFCoreEntityFirst\EFCoreEntityFirst.csproj", "{41A8825C-485C-4C46-96BC-C01886A88C59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{1BAB532E-9719-41D9-A74D-22907C931BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BAB532E-9719-41D9-A74D-22907C931BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BAB532E-9719-41D9-A74D-22907C931BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41A8825C-485C-4C46-96BC-C01886A88C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41A8825C-485C-4C46-96BC-C01886A88C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41A8825C-485C-4C46-96BC-C01886A88C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41A8825C-485C-4C46-96BC-C01886A88C59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

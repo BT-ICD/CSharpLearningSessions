@@ -19,13 +19,14 @@ Console.WriteLine("Hello, World!");
 //Console.WriteLine("Updated");
 
 //Delete
+//using var db = new ProductDataContext();
+//var p = db.Products.Where(x => x.Id == 1).FirstOrDefault();
+//db.Remove(p);
+//db.SaveChanges();
+//Console.WriteLine("Deleted");
+
+
+
 using var db = new ProductDataContext();
-var p = db.Products.Where(x => x.Id == 1).FirstOrDefault();
-db.Remove(p);
-db.SaveChanges();
-Console.WriteLine("Deleted");
-
-
-
-
-
+var p = db.Products.Where(x => x.Id == 2).FirstOrDefault();
+Console.WriteLine(p.Id.ToString());

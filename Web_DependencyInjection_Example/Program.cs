@@ -1,5 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Web_DependencyInjection_Example.Data;
 using Web_DependencyInjection_Example.Implementations;
 using Web_DependencyInjection_Example.Interfaces;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,9 +13,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 
 //Depenency Injection for the Message Service - FileMessageWriter
 builder.Services.AddScoped<IMessageWriter, ConsoleMessageWriter>();
+//builder.Services.AddScoped<IProduct, ProductRepository_Mock>();
+builder.Services.AddScoped<IProduct, ProductRepositoryDb>();
 //builder.Services.AddScoped<IMessageWriter, FileMessageWriter>();
 var app = builder.Build();
 

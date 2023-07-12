@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Web_DependencyInjection_Example.Data;
 using Web_DependencyInjection_Example.Implementations;
 using Web_DependencyInjection_Example.Interfaces;
-
+using Web_DependencyInjection_Example.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +21,8 @@ builder.Services.AddScoped<IMessageWriter, ConsoleMessageWriter>();
 //builder.Services.AddScoped<IProduct, ProductRepository_Mock>();
 builder.Services.AddScoped<IProduct, ProductRepositoryDb>();
 //builder.Services.AddScoped<IMessageWriter, FileMessageWriter>();
+builder.Services.AddSingleton<CarRepository>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

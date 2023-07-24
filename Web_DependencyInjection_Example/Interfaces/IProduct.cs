@@ -6,6 +6,7 @@ namespace Web_DependencyInjection_Example.Interfaces
     {
         List<Product> GetAll();
         Product GetById(int Id);
+        Product AddNew(Product product);
 
     }
 }

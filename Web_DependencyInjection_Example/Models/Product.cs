@@ -13,4 +13,14 @@ namespace Web_DependencyInjection_Example.Models
             return JsonConvert.SerializeObject(this);
         }
     }
+    public class ProductDTOAdd
+    {
+        public string Name { get; set; }
+        public int Rate { get; set; }
+
+        public override string ToString()
+        {
+            return JsonConvert.SerializeObject(this);
+        }
+    }
 }

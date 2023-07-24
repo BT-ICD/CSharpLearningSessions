@@ -2,9 +2,13 @@ using Microsoft.EntityFrameworkCore;
 using Web_DependencyInjection_Example.Data;
 using Web_DependencyInjection_Example.Implementations;
 using Web_DependencyInjection_Example.Interfaces;
+using Web_DependencyInjection_Example.Middleware;
 using Web_DependencyInjection_Example.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+
+//To implement Auto Mapper
+builder.Services.AddAutoMapper(typeof(Program));
 
 // Add services to the container.
 
@@ -20,8 +24,9 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(conn
 builder.Services.AddScoped<IMessageWriter, ConsoleMessageWriter>();
 //builder.Services.AddScoped<IProduct, ProductRepository_Mock>();
 builder.Services.AddScoped<IProduct, ProductRepositoryDb>();
-//builder.Services.AddScoped<IMessageWriter, FileMessageWriter>();
+builder.Services.AddScoped<IMessageWriter, FileMessageWriter>();
 builder.Services.AddSingleton<CarRepository>();
+//builder.Services.AddSingleton<LoggingMiddleware>();
 
 var app = builder.Build();
 
@@ -34,8 +39,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseMiddleware<LoggingMiddleware>();
 app.UseAuthorization();
-
+//app.UseLoggerMiddlewareExtension();
+//app.UseRequestCulture();
+app.UseLoggingMiddlware();
 app.MapControllers();
 
 app.Run();

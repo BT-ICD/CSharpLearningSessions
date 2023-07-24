@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Web_DependencyInjection_Example.Interfaces;
+using Web_DependencyInjection_Example.Models;
 
 namespace Web_DependencyInjection_Example.Controllers
 {
@@ -10,11 +12,13 @@ namespace Web_DependencyInjection_Example.Controllers
     {
         private readonly IMessageWriter messageWriter;
         private readonly IProduct product;
+        private readonly IMapper mapper;
 
-        public ProductController(IMessageWriter messageWriter, IProduct product)
+        public ProductController(IMessageWriter messageWriter, IProduct product, IMapper mapper)
         {
             this.messageWriter = messageWriter;
             this.product = product;
+            this.mapper = mapper;
         }
         [HttpGet]
         [Route("{firstName}")]
@@ -37,6 +41,17 @@ namespace Web_DependencyInjection_Example.Controllers
         {
             return Ok(product.GetById(Id));
         }
+        [HttpPost]
+        public IActionResult Add(ProductDTOAdd productDTOAdd)
+        {
+            //Product p1 = new Product();
 
+            Product p1 = mapper.Map<Product>(productDTOAdd);
+            
+            var result = product.AddNew(p1);
+            return Ok(result);
+
+        }
+        
     }
 }

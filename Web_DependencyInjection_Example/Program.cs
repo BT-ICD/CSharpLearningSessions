@@ -18,6 +18,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
 
 //Depenency Injection for the Message Service - FileMessageWriter
@@ -27,6 +28,7 @@ builder.Services.AddScoped<IProduct, ProductRepositoryDb>();
 builder.Services.AddScoped<IMessageWriter, FileMessageWriter>();
 builder.Services.AddSingleton<CarRepository>();
 //builder.Services.AddSingleton<LoggingMiddleware>();
+
 
 var app = builder.Build();
 
@@ -41,9 +43,14 @@ app.UseHttpsRedirection();
 
 app.UseMiddleware<LoggingMiddleware>();
 app.UseAuthorization();
+
 //app.UseLoggerMiddlewareExtension();
 //app.UseRequestCulture();
-app.UseLoggingMiddlware();
+
+//Add Custom Middleware without using custom Extension Method
+//app.UseMiddleware<LoggingMiddleware>();
+//Add Custom Middleware using custom extension method
+//app.UseLoggingMiddlware();
 app.MapControllers();
 
 app.Run();

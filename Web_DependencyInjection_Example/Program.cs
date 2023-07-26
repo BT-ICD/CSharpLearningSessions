@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Web_DependencyInjection_Example.Data;
+using Web_DependencyInjection_Example.Helper;
 using Web_DependencyInjection_Example.Implementations;
 using Web_DependencyInjection_Example.Interfaces;
 using Web_DependencyInjection_Example.Middleware;
@@ -17,6 +18,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
 string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
@@ -29,6 +31,8 @@ builder.Services.AddScoped<IMessageWriter, FileMessageWriter>();
 builder.Services.AddSingleton<CarRepository>();
 //builder.Services.AddSingleton<LoggingMiddleware>();
 
+//Position as dependency injection - service container
+builder.Services.Configure<PositionOptions>(builder.Configuration.GetSection(PositionOptions.Position));
 
 var app = builder.Build();
 

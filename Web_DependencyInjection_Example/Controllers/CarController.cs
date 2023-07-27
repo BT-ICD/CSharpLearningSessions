@@ -9,13 +9,21 @@ namespace Web_DependencyInjection_Example.Controllers
     public class CarController : ControllerBase
     {
         private readonly CarRepository carRepository;
+        private readonly ILogger<CarController> logger;
 
-        public CarController(CarRepository carRepository)
+        public CarController(CarRepository carRepository, ILogger<CarController> logger)
         {
             this.carRepository = carRepository;
+            this.logger = logger;
         }
 
+        //[HttpGet]
+        //public IActionResult GetCars() => Ok(this.carRepository.GetCars());
         [HttpGet]
-        public IActionResult GetCars() => Ok(this.carRepository.GetCars());
+        public IActionResult GetCars()
+        {
+            logger.LogInformation("Method Name: GetCars Involed By the user");
+            return Ok(this.carRepository.GetCars());
+        }
     }
 }

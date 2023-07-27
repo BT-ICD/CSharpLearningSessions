@@ -5,56 +5,83 @@ using Web_DependencyInjection_Example.Implementations;
 using Web_DependencyInjection_Example.Interfaces;
 using Web_DependencyInjection_Example.Middleware;
 using Web_DependencyInjection_Example.Services;
+using NLog;
+using NLog.Web;
 
-var builder = WebApplication.CreateBuilder(args);
+var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+logger.Debug("init main");
 
-//To implement Auto Mapper
-builder.Services.AddAutoMapper(typeof(Program));
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-
-string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
-
-//Depenency Injection for the Message Service - FileMessageWriter
-builder.Services.AddScoped<IMessageWriter, ConsoleMessageWriter>();
-//builder.Services.AddScoped<IProduct, ProductRepository_Mock>();
-builder.Services.AddScoped<IProduct, ProductRepositoryDb>();
-builder.Services.AddScoped<IMessageWriter, FileMessageWriter>();
-builder.Services.AddSingleton<CarRepository>();
-//builder.Services.AddSingleton<LoggingMiddleware>();
-
-//Position as dependency injection - service container
-builder.Services.Configure<PositionOptions>(builder.Configuration.GetSection(PositionOptions.Position));
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+try
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    var builder = WebApplication.CreateBuilder(args);
+
+    //To implement Auto Mapper
+    builder.Services.AddAutoMapper(typeof(Program));
+
+    // Add services to the container.
+
+    builder.Services.AddControllers();
+    // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+    builder.Services.AddEndpointsApiExplorer();
+    builder.Services.AddSwaggerGen();
+
+
+    string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+    builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
+
+    //Depenency Injection for the Message Service - FileMessageWriter
+    builder.Services.AddScoped<IMessageWriter, ConsoleMessageWriter>();
+    //builder.Services.AddScoped<IProduct, ProductRepository_Mock>();
+    builder.Services.AddScoped<IProduct, ProductRepositoryDb>();
+    builder.Services.AddScoped<IMessageWriter, FileMessageWriter>();
+    builder.Services.AddSingleton<CarRepository>();
+    //builder.Services.AddSingleton<LoggingMiddleware>();
+
+    //Position as dependency injection - service container
+    builder.Services.Configure<PositionOptions>(builder.Configuration.GetSection(PositionOptions.Position));
+
+    // NLog: Setup NLog for Dependency injection
+    builder.Logging.ClearProviders();
+    builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+    builder.Host.UseNLog();
+
+    var app = builder.Build();
+
+    // Configure the HTTP request pipeline.
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseSwagger();
+        app.UseSwaggerUI();
+    }
+
+    app.UseHttpsRedirection();
+
+    app.UseMiddleware<LoggingMiddleware>();
+    app.UseAuthorization();
+
+    //app.UseLoggerMiddlewareExtension();
+    //app.UseRequestCulture();
+
+    //Add Custom Middleware without using custom Extension Method
+    //app.UseMiddleware<LoggingMiddleware>();
+    //Add Custom Middleware using custom extension method
+    //app.UseLoggingMiddlware();
+    app.MapControllers();
+
+    app.Run();
+
+
 }
-
-app.UseHttpsRedirection();
-
-app.UseMiddleware<LoggingMiddleware>();
-app.UseAuthorization();
-
-//app.UseLoggerMiddlewareExtension();
-//app.UseRequestCulture();
-
-//Add Custom Middleware without using custom Extension Method
-//app.UseMiddleware<LoggingMiddleware>();
-//Add Custom Middleware using custom extension method
-//app.UseLoggingMiddlware();
-app.MapControllers();
-
-app.Run();
+catch (Exception exception)
+{
+    // NLog: catch setup errors
+    logger.Error(exception, "Stopped program because of exception");
+    throw;
+    
+}
+finally
+{
+    // Ensure to flush and stop internal timers/threads before application-exit (Avoid segmentation fault on Linux)
+    NLog.LogManager.Shutdown();
+}

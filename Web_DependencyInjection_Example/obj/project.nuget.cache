@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EwRpOYYsVzBBD7ZKsCDQz8RJkgQ81fhbUlHoDmG+Yr0o2y4TsOP/W81fnl+5HWrEzij+Ne7wlhPgLUOJ7jpajA==",
+  "dgSpecHash": "Oq2W9RF7MulaEJ7rVoa5Piik79Jet6klrnb+x1HgVI8F50xmhMmCwFzsmzGsPdlRryBg9NH/itiIcMdKzx/A6w==",
   "success": true,
   "projectFilePath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\Web_DependencyInjection_Example\\Web_DependencyInjection_Example.csproj",
   "expectedPackageFiles": [
@@ -42,6 +42,9 @@
     "C:\\Users\\BHAVIN\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\BHAVIN\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\BHAVIN\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\BHAVIN\\.nuget\\packages\\nlog\\5.2.2\\nlog.5.2.2.nupkg.sha512",
+    "C:\\Users\\BHAVIN\\.nuget\\packages\\nlog.extensions.logging\\5.3.2\\nlog.extensions.logging.5.3.2.nupkg.sha512",
+    "C:\\Users\\BHAVIN\\.nuget\\packages\\nlog.web.aspnetcore\\5.3.2\\nlog.web.aspnetcore.5.3.2.nupkg.sha512",
     "C:\\Users\\BHAVIN\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\BHAVIN\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\BHAVIN\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

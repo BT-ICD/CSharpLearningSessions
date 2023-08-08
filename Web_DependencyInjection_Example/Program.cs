@@ -15,6 +15,12 @@ try
 {
     var builder = WebApplication.CreateBuilder(args);
 
+
+    // NLog: Setup NLog for Dependency injection
+    builder.Logging.ClearProviders();
+    //builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+    builder.Host.UseNLog();
+
     //To implement Auto Mapper
     builder.Services.AddAutoMapper(typeof(Program));
 
@@ -41,10 +47,7 @@ try
     //Position as dependency injection - service container
     builder.Services.Configure<PositionOptions>(builder.Configuration.GetSection(PositionOptions.Position));
 
-    // NLog: Setup NLog for Dependency injection
-    builder.Logging.ClearProviders();
-    builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
-    builder.Host.UseNLog();
+   
 
     var app = builder.Build();
 

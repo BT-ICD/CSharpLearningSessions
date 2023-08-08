@@ -17,6 +17,7 @@ namespace Web_DependencyInjection_Example.Controllers
         {
             this.configuration = configuration;
             this.position = position.Value;
+            
         }
         [HttpGet]
         public IActionResult GetPositionUsingConfiguration()

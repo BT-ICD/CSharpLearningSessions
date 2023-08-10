@@ -13,29 +13,29 @@ namespace Web_DependencyInjection_Example.Middleware
         public async Task InvokeAsync(HttpContext context)
         {
             //messageWriter.WriteMessage($"Method - {context.Request.Method}, Path: {context.Request.Path}");
-            //Console.WriteLine($"Method - {context.Request.Method}, Path: {context.Request.Path}");
+            // //Console.WriteLine($"Method - {context.Request.Method}, Path: {context.Request.Path}");
 
-            var resut = context.Request.Headers.TryGetValue("x-name", out var hederData );
-           // Console.WriteLine($"Result is {resut}, value of x -name is {hederData}");
-            if (resut)
-            {
-                Console.Write(hederData);
-                Console.Write(hederData.ToString());
-                if (hederData.ToString() == "Rajesh Shah")
-                {
-                    await _next(context);
-                }
-                else
-                {
-                    await context.Response.WriteAsync("Middlware Pipe Line Crashed...");
-                }
-            }
-            else
-            {
-                await context.Response.WriteAsync("Middlware Pipe Line Crashed...");
-            }
+            // var resut = context.Request.Headers.TryGetValue("x-name", out var hederData );
+            //// Console.WriteLine($"Result is {resut}, value of x -name is {hederData}");
+            // if (resut)
+            // {
+            //     Console.Write(hederData);
+            //     Console.Write(hederData.ToString());
+            //     if (hederData.ToString() == "Rajesh Shah")
+            //     {
+            //         await _next(context);
+            //     }
+            //     else
+            //     {
+            //         await context.Response.WriteAsync("Middlware Pipe Line Crashed...");
+            //     }
+            // }
+            // else
+            // {
+            //     await context.Response.WriteAsync("Middlware Pipe Line Crashed...");
+            // }
 
-            //await _next(context);
+            await _next(context);
         }
     }
     //Extension Method to add Middleware using method UseLoggingMiddlewareExtensions

@@ -79,3 +79,4 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Web_DependencyInjecti
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Web_DependencyInjection_Example\bin\Debug\net6.0\NLog.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Web_DependencyInjection_Example\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Web_DependencyInjection_Example\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Web_DependencyInjection_Example\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

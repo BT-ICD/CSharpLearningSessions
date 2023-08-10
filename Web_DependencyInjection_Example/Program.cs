@@ -7,6 +7,9 @@ using Web_DependencyInjection_Example.Middleware;
 using Web_DependencyInjection_Example.Services;
 using NLog;
 using NLog.Web;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 logger.Debug("init main");
@@ -47,6 +50,24 @@ try
     //Position as dependency injection - service container
     builder.Services.Configure<PositionOptions>(builder.Configuration.GetSection(PositionOptions.Position));
 
+    //To implement token based authentication
+    builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(
+            options =>
+            {
+                options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+                {
+                    ValidIssuer = "SoftwareOrg",
+                    ValidAudience= "WebApp",
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("AAAAAAAAAAAAAAAAAAA"))
+                };
+            }    
+        );
+
+    //
+
    
 
     var app = builder.Build();
@@ -61,6 +82,8 @@ try
     app.UseHttpsRedirection();
 
     app.UseMiddleware<LoggingMiddleware>();
+    //To implement authentication - JWT 
+    app.UseAuthentication();
     app.UseAuthorization();
 
     //app.UseLoggerMiddlewareExtension();

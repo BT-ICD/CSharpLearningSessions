@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "slnEFCoreDatabaseFirst_Stor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AboutYield_Return_And_YieldBreakStatement", "AboutYield_Return_And_YieldBreakStatement\AboutYield_Return_And_YieldBreakStatement.csproj", "{6DECA778-A165-4681-9855-A0C3065202C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_DependencyInjection_Example", "Web_DependencyInjection_Example\Web_DependencyInjection_Example.csproj", "{995B848E-6F73-407E-B0F7-43A28C092B49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web_DependencyInjection_Example", "Web_DependencyInjection_Example\Web_DependencyInjection_Example.csproj", "{995B848E-6F73-407E-B0F7-43A28C092B49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebApp_MVC_Demo1", "CoreWebApp_MVC_Demo1\CoreWebApp_MVC_Demo1.csproj", "{F312EC38-B7DB-49EF-BC6F-6D69973B2A98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{995B848E-6F73-407E-B0F7-43A28C092B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{995B848E-6F73-407E-B0F7-43A28C092B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{995B848E-6F73-407E-B0F7-43A28C092B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F312EC38-B7DB-49EF-BC6F-6D69973B2A98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F312EC38-B7DB-49EF-BC6F-6D69973B2A98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F312EC38-B7DB-49EF-BC6F-6D69973B2A98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F312EC38-B7DB-49EF-BC6F-6D69973B2A98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

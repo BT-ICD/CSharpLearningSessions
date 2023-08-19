@@ -52,18 +52,28 @@ try
 
     //To implement token based authentication
     builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(
-            options =>
+            //options =>
+            //{
+            //    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+            //    {
+            //        ValidIssuer = "SoftwareOrg",
+            //        ValidAudience= "WebApp",
+            //        ValidateIssuer = true,
+            //        ValidateAudience = true,
+            //        ValidateIssuerSigningKey = true,
+            //        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("AAAAAAAAAAAAAAAAAAA"))
+            //    };
+            //}    
+            options => options.TokenValidationParameters = new TokenValidationParameters()
             {
-                options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
-                {
-                    ValidIssuer = "SoftwareOrg",
-                    ValidAudience= "WebApp",
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("AAAAAAAAAAAAAAAAAAA"))
-                };
-            }    
+                ValidIssuer = "SoftwareOrg",
+                ValidAudience = "WebApp",
+                ValidateIssuer = true,
+                ValidateAudience = true,
+                ValidateIssuerSigningKey = true,
+                IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("AAAAAAAAAAAAAAAAAAA"))
+
+            }
         );
 
     //

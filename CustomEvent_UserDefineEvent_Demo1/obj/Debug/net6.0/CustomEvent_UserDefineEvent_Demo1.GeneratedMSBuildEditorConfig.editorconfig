@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CustomEvent_UserDefineEvent_Demo1
 build_property.ProjectDir = C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\CustomEvent_UserDefineEvent_Demo1\

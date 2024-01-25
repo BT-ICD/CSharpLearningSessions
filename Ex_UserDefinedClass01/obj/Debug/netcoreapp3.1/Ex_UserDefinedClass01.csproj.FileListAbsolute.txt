@@ -17,7 +17,6 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01\bin\Debug\netcoreapp3.1\Ex_UserDefinedClass01.runtimeconfig.dev.json
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01\bin\Debug\netcoreapp3.1\Ex_UserDefinedClass01.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01\bin\Debug\netcoreapp3.1\Ex_UserDefinedClass01.pdb
-C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.csproj.AssemblyReference.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.AssemblyInfoInputs.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.AssemblyInfo.cs
@@ -25,3 +24,4 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.pdb
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.genruntimeconfig.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_UserDefinedClass01\obj\Debug\netcoreapp3.1\Ex_UserDefinedClass01.sourcelink.json

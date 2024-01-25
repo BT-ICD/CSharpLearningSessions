@@ -17,7 +17,6 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\bin\
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\bin\Debug\netcoreapp3.1\InheritanceDemo1.runtimeconfig.dev.json
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\bin\Debug\netcoreapp3.1\InheritanceDemo1.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\bin\Debug\netcoreapp3.1\InheritanceDemo1.pdb
-C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.csproj.AssemblyReference.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.AssemblyInfoInputs.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.AssemblyInfo.cs
@@ -25,3 +24,4 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\obj\
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.pdb
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.genruntimeconfig.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InheritanceDemo1\obj\Debug\netcoreapp3.1\InheritanceDemo1.sourcelink.json

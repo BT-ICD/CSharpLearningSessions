@@ -48,7 +48,6 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\bin\Debug
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreapp3.1\SignalRChat.pdb
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreapp3.1\SignalRChat.Views.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\bin\Debug\netcoreapp3.1\SignalRChat.Views.pdb
-C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.csproj.AssemblyReference.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.AssemblyInfoInputs.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.AssemblyInfo.cs
@@ -74,3 +73,9 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.pdb
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.genruntimeconfig.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.csproj.CopyComplete
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\SignalRChat.sourcelink.json
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\staticwebassets\SignalRChat.StaticWebAssets.Pack.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.SignalRChat.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.build.SignalRChat.props
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildMultiTargeting.SignalRChat.props
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\SignalRChat\obj\Debug\netcoreapp3.1\staticwebassets\msbuild.buildTransitive.SignalRChat.props

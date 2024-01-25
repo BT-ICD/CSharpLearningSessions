@@ -17,7 +17,6 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\bin\De
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.runtimeconfig.dev.json
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\bin\Debug\netcoreapp3.1\InterfaceDemo1.pdb
-C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.csproj.AssemblyReference.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.AssemblyInfoInputs.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.AssemblyInfo.cs
@@ -25,3 +24,4 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\De
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.pdb
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.genruntimeconfig.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\InterfaceDemo1\obj\Debug\netcoreapp3.1\InterfaceDemo1.sourcelink.json

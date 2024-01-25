@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "coX4JXqgGoyJCD/ByojK5j1eDst/EGThNMpbwgfGOc56rt5J+vZWp/KHvM+oRkW/5T8oNi7TyMRnTH0pntC8Lw==",
+  "dgSpecHash": "SNZjSm+E4XV/Go9eCVZN7NYnJKK98Mh8TRTHaQW2KjYrXrExi/m9YiRJH4RGReHIIqsryHNXKzwscHB28CUH3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\BHAVIN\\Source\\Repos\\BT-ICD\\CSharpLearningSessions\\WebAPIDemo1\\WebAPIDemo1.csproj",
   "expectedPackageFiles": [
@@ -100,5 +100,16 @@
     "C:\\Users\\BHAVIN\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\BHAVIN\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Swashbuckle.AspNetCore.SwaggerUI' 6.2.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qrmm-w75w-3wpx",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

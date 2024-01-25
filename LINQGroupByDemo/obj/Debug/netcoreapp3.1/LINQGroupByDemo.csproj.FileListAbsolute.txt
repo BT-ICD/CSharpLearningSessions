@@ -17,7 +17,6 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\bin\D
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\bin\Debug\netcoreapp3.1\LINQGroupByDemo.runtimeconfig.dev.json
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\bin\Debug\netcoreapp3.1\LINQGroupByDemo.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\bin\Debug\netcoreapp3.1\LINQGroupByDemo.pdb
-C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.csproj.AssemblyReference.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.AssemblyInfoInputs.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.AssemblyInfo.cs
@@ -25,3 +24,4 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\obj\D
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.pdb
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.genruntimeconfig.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\LINQGroupByDemo\obj\Debug\netcoreapp3.1\LINQGroupByDemo.sourcelink.json

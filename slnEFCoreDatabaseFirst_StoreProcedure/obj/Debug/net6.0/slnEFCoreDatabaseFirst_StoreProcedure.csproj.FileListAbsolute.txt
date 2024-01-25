@@ -62,3 +62,4 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\slnEFCoreDatabaseFirs
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\slnEFCoreDatabaseFirst_StoreProcedure\obj\Debug\net6.0\slnEFCoreDatabaseFirst_StoreProcedure.pdb
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\slnEFCoreDatabaseFirst_StoreProcedure\obj\Debug\net6.0\slnEFCoreDatabaseFirst_StoreProcedure.genruntimeconfig.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\slnEFCoreDatabaseFirst_StoreProcedure\obj\Debug\net6.0\ref\slnEFCoreDatabaseFirst_StoreProcedure.dll
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\slnEFCoreDatabaseFirst_StoreProcedure\obj\Debug\net6.0\slnEFCoreDatabaseFirst_StoreProcedure.sourcelink.json

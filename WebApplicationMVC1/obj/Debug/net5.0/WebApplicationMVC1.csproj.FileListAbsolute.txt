@@ -314,3 +314,9 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\WebApplicationMVC1\ob
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\WebApplicationMVC1.pdb
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\WebApplicationMVC1.genruntimeconfig.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\ref\WebApplicationMVC1.dll
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\WebApplicationMVC1.sourcelink.json
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\staticwebassets\WebApplicationMVC1.StaticWebAssets.Pack.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\staticwebassets\msbuild.WebApplicationMVC1.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\staticwebassets\msbuild.build.WebApplicationMVC1.props
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.WebApplicationMVC1.props
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\WebApplicationMVC1\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.WebApplicationMVC1.props

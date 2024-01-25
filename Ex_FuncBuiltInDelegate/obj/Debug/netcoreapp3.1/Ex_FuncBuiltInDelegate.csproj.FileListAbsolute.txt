@@ -17,7 +17,6 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegat
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.runtimeconfig.dev.json
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegate\bin\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.pdb
-C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.csproj.AssemblyReference.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.AssemblyInfoInputs.cache
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.AssemblyInfo.cs
@@ -25,3 +24,4 @@ C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegat
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.dll
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.pdb
 C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.genruntimeconfig.cache
+C:\Users\BHAVIN\Source\Repos\BT-ICD\CSharpLearningSessions\Ex_FuncBuiltInDelegate\obj\Debug\netcoreapp3.1\Ex_FuncBuiltInDelegate.sourcelink.json
